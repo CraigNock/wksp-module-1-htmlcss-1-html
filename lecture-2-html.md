@@ -10,7 +10,8 @@ _actually it's HyperText Markup Language_
 
 - What is HTML?
 - What is CSS?
-
+html is your content and markup
+css is your styling of the html
 ---
 
 ## Pop Quiz!
@@ -19,6 +20,7 @@ _actually it's HyperText Markup Language_
 
 <img src="./assets/batman_thinking.jpg" />
 
+html(that's your content)
 ---
 
 ## Anatomy of an HTML element
@@ -63,6 +65,7 @@ Tags should be chosen based on the semantic value of the content
 
 Tags should NEVER be chosen based on presentation, or look
 
+NEVER
 ---
 
 This means that these tags are essentially off-limits
@@ -71,21 +74,23 @@ This means that these tags are essentially off-limits
 
 They have no semantic value.
 
+NEVER
+
 ---
 
 Anytime you catch yourself thinking...
 
 "I should use x because I need it to look like ..."
 
-✋
-
+stop ✋
+no
 ---
 
 ### Semantic HTML = Google
 
 1. It pleases Google.
     - Easier for its algorithm to crawl and index site
-    - Meaning a better ranking in searhc results
+    - Meaning a better ranking in search results
     - Less of a need to "game" the Google algorithm
 
 ---
@@ -119,32 +124,36 @@ Anytime you catch yourself thinking...
 - Fines of up to $250,000. 😬
 
 ---
+Web must be accessible, good html is foundation of that
+Right first time is better
+No <div> itis
 
 🙏 Always write good HTML. 🙏
 
 ---
 
 ## Common HTML Tags (4.01+)
+ONLY EVER ONE H1
 
-- Block-level elements
+- Block-level elements (take up whole width of page generally)
     - `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, `<p>`
-    - `<ul>`, `<ol>`, `<li>`, `<blockquote>`, `<table>`,
-    - `<form>`
-    - `<div>`
-- Inline elements
-    - `<img>`, `<a>`, `<span>`, `<button>`
+    - `<ul>`, `<ol>`, `<li>`, `<blockquote>`, `<table>`(rare),
+    - `<form>`(to do with forms)
+    - `<div>`(containers to style easier)
+- Inline elements (won't cause new line)
+    - `<img>`, `<a>`(links), `<span>`(allows to target small text for styling), `<button>`
     - `<input>`, `<label>`, `<select>`, `<textarea>`
-    - `<abbr>` 
+    - `<abbr>`(abreviation hover text) 
 
 [Source](https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php)
 
 ---
 
-## HTML 5 Semantic Tags
+## HTML 5 Semantic Tags (Will use. Basically positional tags)
 
-- `<header>`, `<footer>`, `<nav>`, `<section>`, `<main>`, `<aside>`
-- `<figure>`, `<figcaption>`, `<summary>`
-- `<time>`, 
+- `<header>`, `<footer>`, `<nav>`(navigation bar), `<section>`, `<main>`, `<aside>`
+- `<figure>`(image with caption), `<figcaption>`, `<summary>`
+- `<time>`(not used much), 
 
 ---
 
