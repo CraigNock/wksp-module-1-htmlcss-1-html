@@ -1,1 +1,59 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+
+<html>
+<body>
+<!--Registration form user info inputs-->
+    <h1>Registration form</h1>
+    <form action="">
+        <p>Username<input type="text"required /> password <input type="text"required /></p>
+        <p>Email <input type="text"required /></p>
+<!--Taxi type selection-->
+        <p>Which taxi do you require?</p>
+        <div>
+            <input type="radio" id="car" name="taxi" value="car" checked required />
+            <label for="car">Car</label> 
+        </div>
+        <div>
+            <input type="radio" id="van" name="taxi" value="van"required />
+            <label for="van">Van</label>
+        </div>
+        <div>
+            <input type="radio" id="tuktuk" name="taxi" value="tuktuk" required />
+            <label for="tuktuk">Tuk Tuk</label>
+        </div>
+<!--Optional extra services-->
+        <p>Extras</p>
+        <div>
+            <input type="checkbox" id="babyseat" name="extras">
+            <label for="babyseat">Baby Seat</label> 
+        </div>
+        <div>
+            <input type="checkbox" id="wheelchair" name="wheelchair">
+            <label for="wheelchair">Wheelchair Access</label> 
+        </div>
+        <div>
+            <input type="checkbox" id="stocktip" name="stocktip">
+            <label for="stocktip">Stock Tip</label> 
+        </div>
+<!--Pickup location options-->
+        <p> Pickup 
+            <select name="pickup" id="pickup">
+                <option value="selectone" >Select One</option>
+                <option value="taxi office" >Taxi Office</option>
+                <option value="townhall" >Town Hall</option>
+                <option value="guess" >We'll Guess!</option>
+            </select>
+        </p>
+<!--Special requests-->
+        <p> 
+            Special <textarea name="special" id="special" cols="20" rows="2"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+
+
+</body>
+
+</html>

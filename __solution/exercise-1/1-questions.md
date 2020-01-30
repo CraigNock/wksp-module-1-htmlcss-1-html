@@ -1,5 +1,6 @@
 # HTML Comprehension Questions
 
+changes visible?
 
 ## Q1 - For each of the following HTML documents, is the HTML valid?
 
